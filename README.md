@@ -13,6 +13,9 @@ This repository contains small Python utilities for manipulating text and the cl
 - **[pigLat](pigLat/pigLat.py)**  
   Converts English text to Pig Latin, preserving punctuation and capitalization.
 
+- **[tablePrinter](tablePrinter/tablePrinter.py)**  
+  Prints a list of lists in a well-formatted table with each column right-justified.
+
 ## Usage
 
 Each tool can be run directly with Python or via the provided `.bat` files on Windows.
@@ -42,10 +45,19 @@ Each tool can be run directly with Python or via the provided `.bat` files on Wi
    ```
 2. Enter a message when prompted. The Pig Latin translation will be displayed.
 
+### Example: tablePrinter
+
+1. Edit `tablePrinter/tablePrinter.py` to set your own table data or use the sample data.
+2. Run:
+   ```
+   tablePrinter\tablePrinter.bat
+   ```
+3. The formatted table will be printed to the console.
+
 ## Requirements
 
 - Python 3.x
-- [pyperclip](https://pypi.org/project/pyperclip/) (install with `pip install pyperclip`)
+- [pyperclip](https://pypi.org/project/pyperclip/) (install with `pip install pyperclip`) *(for clipboard utilities)*
 
 ---
 
